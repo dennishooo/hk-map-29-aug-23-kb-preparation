@@ -1,16 +1,16 @@
 const dennis = {
-  name: 'dennis',
+  name: "dennis",
   height: 180,
   isHandsome: true,
-  girlfriend: { name: 'lam ka yan' },
+  girlfriend: { name: "lam ka yan" },
 };
 
 console.log(dennis.girlfriend.name);
 
 const students = [
-  { name: 'tom', age: 18 },
-  { name: 'christopher', age: 18 },
-  { name: 'yves', age: 18 },
+  { name: "tom", age: 18 },
+  { name: "christopher", age: 18 },
+  { name: "yves", age: 18 },
 ];
 
 for (const student of students) {
@@ -29,11 +29,11 @@ for (const key in dennis) {
 }
 
 function getName(student) {
-  console.log('hi!', student.name);
+  console.log("hi!", student.name);
 }
 
 students.forEach((student) => {
-  console.log('hi!', student.name);
+  console.log("hi!", student.name);
 });
 
 students.forEach(getName);

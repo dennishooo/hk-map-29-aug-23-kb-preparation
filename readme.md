@@ -15,7 +15,6 @@
 - shallow copy and deep copy
 
 - wef000 exercises
-  
 
 ## Day 2
 
